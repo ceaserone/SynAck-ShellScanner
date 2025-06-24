@@ -35,11 +35,11 @@ It brute-tests known shell paths (`r57`, `wso`, `c99`, etc.) and reports hits in
 
 ## 📂 Files Included
 
-├── find_shells.py # Main scanner script 
-├── targets.txt    # Your list of IPs or domains (example)
-├── shells.txt     # Shell path dictionary 
-├── logo.png       # Repo logo for GitHub branding 
-└── README.md      # GitHUB's little porn maker 
+├── find_shells.py # Main scanner script <br>
+├── targets.txt    # Your list of IPs or domains (example) <br>
+├── shells.txt     # Shell path dictionary <br>
+├── logo.png       # Repo logo for GitHub branding <br>
+└── README.md      # GitHUB's little porn maker <br>
 
 ---
 
@@ -60,18 +60,18 @@ Create a file called `targets.txt` with one domain or IP per line.
 You can include `http://` or `https://` — or leave it out and let the scanner try both.
 
 Example 4 targets.txt:
-25.032.001.16
-http://26.032.181.0
-https://27.1.1.2
-scanmebabyxx.net
-www.scanmexx.com
-http://somesitexx.com
-https://someothersitexx.net
+25.032.001.16<br>
+http://26.032.181.0<br>
+https://27.1.1.2<br>
+scanmebabyxx.net<br>
+www.scanmexx.com<br>
+http://somesitexx.com<br>
+https://someothersitexx.net<br>
 
 Input Format ----> Scanner Behavior
 ____________________________________
-example.com	Tries both http:// and https://
-http://ip	Only tries http://ip
+example.com	Tries both http:// and https://<br>
+http://ip	Only tries http://ip<br>
 https://domain	Only tries https://domain
 
 ---
@@ -92,37 +92,37 @@ python find_shells.py targets.txt
 <small>(💥🤯BOOM! The script is running so watch shells rain down! 😮)</small>
 
 **📦 Output example:**
-[FOUND SHELL] http://example.com/shell.php [Status: 200]
-[FOUND SHELL] http://example.com/elite_shell.php [Status: 200]
-[FOUND SHELL] http://example.com/admin/shell2.php [Status: 200]
+[FOUND SHELL] http://example.com/shell.php [Status: 200]<br>
+[FOUND SHELL] http://example.com/elite_shell.php [Status: 200]<br>
+[FOUND SHELL] http://example.com/admin/shell2.php [Status: 200]<br>
 
 Anything found will be saved to "found_shells.txt"
 You can grep, parse, or import this later.😉
 ---
 
-💥 17 threads auto-start
+💥 17 threads auto-start<br><br>
 
-💡 Tries both HTTPS and HTTP with fallback
+💡 Tries both HTTPS and HTTP with fallback<br><br>
 
-🔁 Rotates User-Agent headers
+🔁 Rotates User-Agent headers<br><br>
 
-🔒 SSL cert errors are bypassed (verify=False)
+🔒 SSL cert errors are bypassed (verify=False)<br><br>
 
-⏳ Shows live progress, ETA, and current target
+⏳ Shows live progress, ETA, and current target<br><br>
 
-✅ Logs all shell hits to found_shells.txt
+✅ Logs all shell hits to found_shells.txt<br><br>
 
 ---
 
-🧬 Upcoming Features
+🧬 Upcoming Features:<br>
 
-These are planned for future versions:
+These are planned for future versions:<br><br>
 
-[ ] Param-based payload testing (?cmd=, ?act=, ?exec=)
+[ ] Param-based payload testing (?cmd=, ?act=, ?exec=)<br><br>
 
-[ ] Proxy rotation (SOCKS5/HTTP)
+[ ] Proxy rotation (SOCKS5/HTTP)<br><br>
 
-[ ] Local web dashboard 
+[ ] Local web dashboard <br><br>
 
 [ ] Auto-login trigger for discovered shells
 
