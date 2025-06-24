@@ -1,7 +1,7 @@
 # SynAck-ShellScanner v1.3.0
 
 <p align="center">
-  <img src="logo.png" alt="SynAck ShellFinder" width="200"/>
+  <img src="shell.png" alt="SynAck ShellFinder" width="200"/>
 
   <br/><br/>
 
