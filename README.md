@@ -91,7 +91,7 @@ python find_shells.py targets.txt
 
 <small>(💥🤯BOOM! The script is running so watch shells rain down! 😮)</small>
 
-**📦 Output example:**
+**📦 Output example:**<br>
 [FOUND SHELL] http://example.com/shell.php [Status: 200]<br>
 [FOUND SHELL] http://example.com/elite_shell.php [Status: 200]<br>
 [FOUND SHELL] http://example.com/admin/shell2.php [Status: 200]<br>
@@ -100,17 +100,17 @@ Anything found will be saved to "found_shells.txt"
 You can grep, parse, or import this later.😉
 ---
 
-💥 17 threads auto-start<br><br>
+💥 17 threads auto-start<br>
 
-💡 Tries both HTTPS and HTTP with fallback<br><br>
+💡 Tries both HTTPS and HTTP with fallback<br>
 
-🔁 Rotates User-Agent headers<br><br>
+🔁 Rotates User-Agent headers<br>
 
-🔒 SSL cert errors are bypassed (verify=False)<br><br>
+🔒 SSL cert errors are bypassed (verify=False)<br>
 
-⏳ Shows live progress, ETA, and current target<br><br>
+⏳ Shows live progress, ETA, and current target<br>
 
-✅ Logs all shell hits to found_shells.txt<br><br>
+✅ Logs all shell hits to found_shells.txt<br>
 
 ---
 
