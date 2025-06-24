@@ -46,8 +46,8 @@ It brute-tests known shell paths (`r57`, `wso`, `c99`, etc.) and reports hits in
 ## 🧠 Requirements 
 - `requests` library
 
-Install it:
--bash
+Install it:<br>
+-bash<br>
 pip install requests
 
 ---
@@ -84,9 +84,9 @@ You can add more or customize it anytime.
 
 ---
 
-3. **Run the scanner:**
+3. **Run the scanner:**<br>
 (make sure shells.txt is in the same directory as .py obviously)
--bash
+-bash<br>
 python find_shells.py targets.txt
 
 <small>(💥🤯BOOM! The script is running so watch shells rain down! 😮)</small>
@@ -138,6 +138,6 @@ for all usage of this tool. Always operate with ethics, legality, and respect.
 
 ✊ Credits:
 
-Developed by: SynAck Network - DEVNET
+Developed by: SynAck Network - DEVNET<br>
 SynAckNetwork.com and DevNet are registered trademark's of "Fatass's are HOT!" 🥵 and the letter's "F and U"
 
