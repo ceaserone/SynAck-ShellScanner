@@ -113,13 +113,13 @@ You can grep, parse, or import this later.😉
 
 🧬 Upcoming Features:<br>
 
-These are planned for future versions:<br><br>
+These are planned for future versions:<br>
 
-[ ] Param-based payload testing (?cmd=, ?act=, ?exec=)<br><br>
+[ ] Param-based payload testing (?cmd=, ?act=, ?exec=)<br>
 
-[ ] Proxy rotation (SOCKS5/HTTP)<br><br>
+[ ] Proxy rotation (SOCKS5/HTTP)<br>
 
-[ ] Local web dashboard <br><br>
+[ ] Local web dashboard <br>
 
 [ ] Auto-login trigger for discovered shells
 
