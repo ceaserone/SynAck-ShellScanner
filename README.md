@@ -1,12 +1,9 @@
-# SynAck-ShellScanner v1.3.0
-
 <p align="center">
-  <img src="shell.png" alt="SynAck ShellFinder" width="200"/>
-
-  <br/><br/>
+  <img src="shell.png" alt="SynAck ShellFinder" width="180"/><br><br>
 
   <img src="https://img.shields.io/badge/Python-3.x-blue?logo=python&logoColor=white" />
   <img src="https://img.shields.io/badge/Threads-17-red?style=flat-square" />
+  <img src="https://img.shields.io/badge/License-Custom-lightgrey?style=flat-square" />
   <img src="https://img.shields.io/badge/SSL-Bypass%20Enabled-critical?style=flat-square&color=purple" />
   <img src="https://img.shields.io/badge/Made%20By-SynAck%20Network-black?style=flat-square" />
 </p>
