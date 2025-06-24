@@ -56,7 +56,7 @@ pip install requests
 Create a file called `targets.txt` with one domain or IP per line.  
 You can include `http://` or `https://` — or leave it out and let the scanner try both.
 
-Example 4 targets.txt:
+Example 4 targets.txt:<br>
 25.032.001.16<br>
 http://26.032.181.0<br>
 https://27.1.1.2<br>
